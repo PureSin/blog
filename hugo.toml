@@ -1,4 +1,26 @@
 baseURL = 'https://kelvin.ma/'
 languageCode = 'en-us'
 title = 'Kelvin Blog'
-theme = 'xterm'
+theme = 'hugo-coder'
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

@@ -13,7 +13,7 @@
       <link>https://kelvin.ma/posts/my-first-post/</link>
       <pubDate>Thu, 09 May 2024 22:01:50 -0700</pubDate>
       <guid>https://kelvin.ma/posts/my-first-post/</guid>
-      <description>A new blog comes alive A few years ago, I used to blog on Medium. That was paused during COVID, but now I&amp;rsquo;m resuming the blogging effort here with a self-hosted version using the Hugo framework and Cloudflare Pages for serving.&#xA;The main reason for this change is to have long-term control over my content and to use Git for version control. I don&amp;rsquo;t plan for this blog to be much more sophisticated in style than markdown with occasional images.</description>
+      <description>A new blog comes alive Link to heading A few years ago, I used to blog on Medium. That was paused during COVID, but now I&amp;rsquo;m resuming the blogging effort here with a self-hosted version using the Hugo framework and Cloudflare Pages for serving.&#xA;The main reason for this change is to have long-term control over my content and to use Git for version control. I don&amp;rsquo;t plan for this blog to be much more sophisticated in style than markdown with occasional images.</description>
     </item>
   </channel>
 </rss>
