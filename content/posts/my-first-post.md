@@ -1,7 +1,7 @@
 +++
 title = 'First post of a new blog'
 date = 2024-05-09T22:01:50-07:00
-draft = true
+draft = false
 +++
 
 # A new blog comes alive
