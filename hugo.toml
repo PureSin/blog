@@ -1,4 +1,4 @@
 baseURL = 'https://kelvin.ma/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Kelvin Blog'
 theme = 'xterm'
