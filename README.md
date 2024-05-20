@@ -2,7 +2,9 @@ My Blog: blog.kelvin.ma
 
 # start server:
 
- `hugo server -D`
+With Drafts
+
+ `hugo server -D` 
 
 # new post
 

@@ -6,6 +6,21 @@
     <description>Recent content in Tags on Kelvin Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 17 May 2024 15:45:17 -0700</lastBuildDate>
     <atom:link href="https://kelvin.ma/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://kelvin.ma/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kelvin.ma/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking</title>
+      <link>https://kelvin.ma/tags/hacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kelvin.ma/tags/hacking/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
