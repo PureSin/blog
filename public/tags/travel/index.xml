@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on Kelvin Blog</title>
+    <link>http://localhost:1313/tags/travel/</link>
+    <description>Recent content in Travel on Kelvin Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2024 22:48:58 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Berkshire Hathaway Shareholder Conference</title>
+      <link>http://localhost:1313/posts/2024-omaha/</link>
+      <pubDate>Sun, 16 Jun 2024 22:48:58 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024-omaha/</guid>
+      <description> Berkshire Hathaway Shareholder Conference Link to heading Travelling Link to heading Vendors Link to heading The Conference Link to heading Sights around Omaha Link to heading Summary Link to heading </description>
+    </item>
+  </channel>
+</rss>
