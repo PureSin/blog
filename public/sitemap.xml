@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2024-omaha/</loc>
-    <lastmod>2024-06-16T22:48:58-07:00</lastmod>
+    <loc>https://kelvin.ma/tags/ai/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-16T22:48:58-07:00</lastmod>
+    <loc>https://kelvin.ma/posts/ai-and-personal-software/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-16T22:48:58-07:00</lastmod>
+    <loc>https://kelvin.ma/tags/hacking/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://kelvin.ma/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
+  </url><url>
+    <loc>https://kelvin.ma/posts/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
+  </url><url>
+    <loc>https://kelvin.ma/tags/</loc>
+    <lastmod>2025-07-01T19:04:16-07:00</lastmod>
+  </url><url>
+    <loc>https://kelvin.ma/posts/pearai_hackathon/</loc>
     <lastmod>2024-05-17T15:45:17-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hacking/</loc>
-    <lastmod>2024-05-17T15:45:17-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/pearai_hackathon/</loc>
-    <lastmod>2024-05-17T15:45:17-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-05-17T15:45:17-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://kelvin.ma/posts/my-first-post/</loc>
     <lastmod>2024-05-09T22:01:50-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kelvin.ma/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://kelvin.ma/series/</loc>
   </url>
 </urlset>
