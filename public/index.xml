@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kelvin Blog</title>
-    <link>https://kelvin.ma/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Kelvin Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Jul 2025 19:04:16 -0700</lastBuildDate>
-    <atom:link href="https://kelvin.ma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI and Personal Software</title>
-      <link>https://kelvin.ma/posts/ai-and-personal-software/</link>
+      <link>http://localhost:1313/posts/ai-and-personal-software/</link>
       <pubDate>Tue, 01 Jul 2025 19:04:16 -0700</pubDate>
-      <guid>https://kelvin.ma/posts/ai-and-personal-software/</guid>
+      <guid>http://localhost:1313/posts/ai-and-personal-software/</guid>
       <description>You&amp;rsquo;ve probably heard it a million times by now: AI is changing everything, especially when it comes to writing software. Tools like smart autocomplete, AI chats, and now the Gemini CLI are making it way easier to code. I&amp;rsquo;ve definitely seen this myself. I&amp;rsquo;ve been able to whip up small, single-use scripts in no time.&#xA;I&amp;rsquo;m taking a bit of a break from work right now—a self-made sabbatical, you could call it.</description>
     </item>
     <item>
       <title>PearVC/OpenAI Hackathon: hacking in the AI era</title>
-      <link>https://kelvin.ma/posts/pearai_hackathon/</link>
+      <link>http://localhost:1313/posts/pearai_hackathon/</link>
       <pubDate>Fri, 17 May 2024 15:45:17 -0700</pubDate>
-      <guid>https://kelvin.ma/posts/pearai_hackathon/</guid>
+      <guid>http://localhost:1313/posts/pearai_hackathon/</guid>
       <description>Intro/Background Link to heading A few weeks back I attended the PearVC X OpenAI hackathon in SF.&#xA;It&amp;rsquo;s the first in-person external hackathon I attended in years, and the first in the &amp;ldquo;AI&amp;rdquo; era. Want to write done some thoughts on how &amp;ldquo;hacking&amp;rdquo; a product has been impacted by AI.&#xA;The Hackathon Link to heading The event took place in PearVC&amp;rsquo;s incubator space in Mission Bay. Had a nice view of the city on a beautiful day.</description>
     </item>
     <item>
       <title>First post of a new blog</title>
-      <link>https://kelvin.ma/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Thu, 09 May 2024 22:01:50 -0700</pubDate>
-      <guid>https://kelvin.ma/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>A new blog comes alive Link to heading A few years ago, I used to blog on Medium. That was paused during COVID, but now I&amp;rsquo;m resuming the blogging effort here with a self-hosted version using the Hugo framework and Cloudflare Pages for serving.&#xA;The main reason for this change is to have long-term control over my content and to use Git for version control. I don&amp;rsquo;t plan for this blog to be much more sophisticated in style than markdown with occasional images.</description>
     </item>
   </channel>
