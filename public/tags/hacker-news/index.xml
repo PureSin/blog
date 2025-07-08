@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacker-News on Kelvin Blog</title>
+    <link>https://blog.kelvin.ma/tags/hacker-news/</link>
+    <description>Recent content in Hacker-News on Kelvin Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jul 2025 20:38:56 -0700</lastBuildDate>
+    <atom:link href="https://blog.kelvin.ma/tags/hacker-news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Ode to Pocket: Analysis of Exported Logs</title>
+      <link>https://blog.kelvin.ma/posts/an-ode-to-pocket-analysis-of-exported-logs/</link>
+      <pubDate>Mon, 07 Jul 2025 20:38:56 -0700</pubDate>
+      <guid>https://blog.kelvin.ma/posts/an-ode-to-pocket-analysis-of-exported-logs/</guid>
+      <description>Pocket is a service for saving links for later reading. It shuts down tomorrow, July 8th RIP. Inspired by noperator&amp;rsquo;s post, I decided to use Claude Code to analyze my exports as well.&#xA;First some basic facts about my Pocket archive: 1,530 articles saved between January 2020 and May 2025. That&amp;rsquo;s about 306 articles per year, or roughly 6 articles per week. Not too shabby when I feel like I&amp;rsquo;m always behind on my reading backlog.</description>
+    </item>
+  </channel>
+</rss>

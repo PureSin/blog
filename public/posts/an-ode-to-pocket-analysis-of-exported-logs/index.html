@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  An Ode to Pocket: Analysis of Exported Logs · Kelvin Blog
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="Analyzing 5 years of Pocket usage data reveals fascinating patterns in digital reading habits">
+<meta name="keywords" content="">
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="An Ode to Pocket: Analysis of Exported Logs">
+<meta name="twitter:description" content="Analyzing 5 years of Pocket usage data reveals fascinating patterns in digital reading habits">
+
+<meta property="og:url" content="https://blog.kelvin.ma/posts/an-ode-to-pocket-analysis-of-exported-logs/">
+  <meta property="og:site_name" content="Kelvin Blog">
+  <meta property="og:title" content="An Ode to Pocket: Analysis of Exported Logs">
+  <meta property="og:description" content="Analyzing 5 years of Pocket usage data reveals fascinating patterns in digital reading habits">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-07T20:38:56-07:00">
+    <meta property="article:modified_time" content="2025-07-07T20:38:56-07:00">
+    <meta property="article:tag" content="Data-Analysis">
+    <meta property="article:tag" content="Pocket">
+    <meta property="article:tag" content="Reading">
+    <meta property="article:tag" content="Hacker-News">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Visualization">
+
+
+
+
+<link rel="canonical" href="https://blog.kelvin.ma/posts/an-ode-to-pocket-analysis-of-exported-logs/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://blog.kelvin.ma/">
+      Kelvin Blog
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://blog.kelvin.ma/posts/an-ode-to-pocket-analysis-of-exported-logs/">
+              An Ode to Pocket: Analysis of Exported Logs
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-07-07T20:38:56-07:00">
+                July 7, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/data-analysis/">Data-Analysis</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/pocket/">Pocket</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/reading/">Reading</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/hacker-news/">Hacker-News</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/python/">Python</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/visualization/">Visualization</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/digital-habits/">Digital-Habits</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tech/">Tech</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Pocket is a service for saving links for later reading. It shuts down <a href="https://support.mozilla.org/en-US/kb/future-of-pocket"  class="external-link" target="_blank" rel="noopener">tomorrow, July 8th RIP</a>. Inspired by <a href="https://noperator.dev/posts/o3-pocket-profile/"  class="external-link" target="_blank" rel="noopener">noperator&rsquo;s post</a>, I decided to use Claude Code to analyze my exports as well.</p>
+<p>First some basic facts about my Pocket archive: 1,530 articles saved between January 2020 and May 2025. That&rsquo;s about 306 articles per year, or roughly 6 articles per week. Not too shabby when I feel like I&rsquo;m always behind on my reading backlog.</p>
+<p><img src="/pocket_analysis.png" alt="Pocket Analysis Charts"></p>
+<h2 id="the-hacker-news-addiction">
+  The Hacker News Addiction
+  <a class="heading-link" href="#the-hacker-news-addiction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I have a serious Hacker News problem. 659 articles (43% of my entire archive) came from news.ycombinator.com. That&rsquo;s nearly half my digital reading diet from a single source.</p>
+<p>The next biggest sources were Substack (45 articles) and various email newsletters (36 articles). This tells a story: I&rsquo;m either browsing Hacker News directly or getting curated content delivered to my inbox. Not much serendipitous discovery happening here.</p>
+<p>It&rsquo;s worth noting that Hacker News is over-represented in this data because Pocket doesn&rsquo;t capture my other reading habits - I consume news through dedicated apps and read most email newsletters directly in my inbox. So while HN dominates my <em>saved</em> content, it&rsquo;s not actually half my total reading diet.</p>
+<h2 id="what-im-actually-reading">
+  What I&rsquo;m Actually Reading
+  <a class="heading-link" href="#what-im-actually-reading">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Looking at the most common words in article titles reveals my interests:</p>
+<ul>
+<li>&ldquo;comments&rdquo; appears 396 times – that&rsquo;s a lot of Hacker News comment threads -&gt; I often prefer to save the HN thread over the actual link so I can read the discussions.</li>
+<li>&ldquo;android&rdquo; shows up 27 times – reflects my job as an Android dev working on Google Photos.</li>
+<li>&ldquo;models&rdquo; appears 19 times – the AI/ML trend is visible</li>
+<li>&ldquo;learning&rdquo; and &ldquo;open&rdquo; both appear 18 times – education and open source matter</li>
+</ul>
+<p>Looking at this data, I see someone deeply embedded in the tech world, particularly interested in software development, AI/ML, and mobile development. The prevalence of &ldquo;comments&rdquo; suggests I&rsquo;m not just reading articles but diving into discussions.</p>
+<h2 id="goodbye-pocket">
+  Goodbye, Pocket
+  <a class="heading-link" href="#goodbye-pocket">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>As Pocket shuts down tomorrow, this analysis feels like a fitting farewell. The service helped me build a habit of saving interesting content, even if I probably only read a fraction of what I saved.</p>
+<p>The data shows a clear evolution in my reading habits over 5+ years, with increasing engagement and more focused interests. Whether I&rsquo;ll maintain this level of curation with whatever replaces Pocket remains to be seen.</p>
+<p>Thanks for the memories, Pocket. And thanks for the data – it&rsquo;s been illuminating to see my digital reading habits laid bare in charts and numbers.</p>
+<p>With the Pocket shutdown, I migrated to a new setup: <a href="https://instapaper.com/"  class="external-link" target="_blank" rel="noopener">Instapaper</a> for saving then sending most text heavy content to my kindle via <a href="http://ktool.io/"  class="external-link" target="_blank" rel="noopener">http://ktool.io/</a> with feedly for RSS tracking.</p>
+<hr>
+<p><em>Analysis performed via Claude CLI using Python with pandas, matplotlib, and seaborn. The full breakdown covered 1,530 articles with 16 invalid entries removed during processing.</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
