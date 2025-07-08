@@ -1,6 +1,6 @@
 baseURL = 'https://blog.kelvin.ma/'
 languageCode = 'en-us'
-title = 'Kelvin Blog'
+title = "Kelvin's Blog"
 theme = 'hugo-coder'
 
 languagecode = "en"
