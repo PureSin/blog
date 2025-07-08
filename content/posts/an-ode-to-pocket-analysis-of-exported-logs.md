@@ -15,7 +15,7 @@ Pocket is a service for saving links for later reading. It shuts down [tomorrow,
 
 First some basic facts about my Pocket archive: 1,530 articles saved between January 2020 and May 2025. That's about 306 articles per year, or roughly 6 articles per week. Not too shabby when I feel like I'm always behind on my reading backlog.
 
-![Pocket Analysis Charts](pocket_analysis.png)
+![Pocket Analysis Charts](/pocket_analysis.png)
 
 ## The Hacker News Addiction
 
