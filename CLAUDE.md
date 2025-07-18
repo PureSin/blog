@@ -8,6 +8,8 @@ This is a personal blog built with Hugo static site generator, hosted at https:/
 
 ## Development Commands
 
+Don't start the server yourself. It's always running and the url is http://localhost:1313/.
+
 ### Local Development
 ```bash
 # Start development server with draft posts
