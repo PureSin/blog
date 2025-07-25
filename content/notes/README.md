@@ -6,7 +6,6 @@ This directory contains notes and research for blog posts.
 
 - `ideas/` - Post ideas and concepts
 - `research/` - Research notes and references for posts
-- `drafts/` - Work-in-progress notes and draft content
 
 ## Usage
 
