@@ -41,10 +41,20 @@ The workflow works surprisingly well: I act as product manager, Claude codes, I 
 
 I encountered one reliability [issue](https://github.com/anthropics/claude-code/issues/3891) where Claude would crash, but it was quickly fixed.
 
-Session limits are a common concern—easy to hit on the $20/month Pro plan, and even users on $100-200/month plans report reaching limits quickly with Opus. Since Pro doesn't support Opus yet, I can't compare, but friends with access say it handles complex tasks noticeably better.
+Session limits are a common concern—easy to hit on the $20/month Pro plan, and even users on $100-200/month plans report reaching limits quickly with Opus. Since Pro doesn't support Opus yet, I can't compare, but friends with access say it handles complex tasks noticeably better. Overall there is a lot of discussion/advice on how to best control costs/maximize token usage for these AI coding tools.
+
+Update: July 29th: Anthropic updated to clarify their limits for Claude Code Usage: https://news.ycombinator.com/item?id=44713757
 
 ## Overall
 
 This is genuinely a great tool. I love the terminal-first approach, and having Claude Code (or similar AI coding tools) makes side projects much more approachable—especially those small automation tasks I'd never bothered to tackle before.
 
-The shift from writing code to directing it feels significant. It's not just about speed; it's about lowering the barrier to turn ideas into working software.
+The shift from writing code to directing it feels significant. It's not just about speed; it's about lowering the barrier to turn ideas into working software. Before this required finding collaborators for the project. Now it can be all managed by 1 person with the entire vision/plan/context in their head. 
+
+## What's next
+
+I'll try out claude code competitors like:
+
+- Gemini CLI: https://github.com/google-gemini/gemini-cli
+- ChatGPT Codex/Sourcegraph Amp/Google Jules
+- Other CLI tools that uses openRouter for the the LLM inference or uses local inference so I have more control over the inference itself. 
